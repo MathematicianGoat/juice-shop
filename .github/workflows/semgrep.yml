@@ -7,9 +7,6 @@ on:
     branches: [ "master" ]
   workflow_dispatch:
 
-permissions:
-  contents: read
-
 jobs:
   semgrep:
     name: Scanner
