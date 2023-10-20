@@ -14,6 +14,8 @@ jobs:
   semgrep:
     name: Scanner
     runs-on: ubuntu-latest
+    container: 
+      image: returntocorp/semgrep
     steps:
       
       - uses: actions/checkout@v3
